@@ -26,7 +26,7 @@ namespace WebApplication1
         }
 
         [WebMethod]
-        public List<string> names(string prefix)
+        public List<string> getNames(string prefix)
         {
             System.Diagnostics.Debug.WriteLine("a");
             List<string> temp;
